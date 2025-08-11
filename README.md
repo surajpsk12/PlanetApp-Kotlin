@@ -4,6 +4,8 @@
 
 ---
 
+App Download Link : https://drive.google.com/file/d/1cYlGYw-qOt9TxAsWN5bDPQHuDYVmR3vH/view?usp=sharing
+
 ## 🚀 Features
 
 - 🪐 **Planet Listing:** Displays a list of planets.
@@ -25,8 +27,8 @@
 ## 🏗️ Project Structure
 
 ```
-com.surajvanshsv.planetsapp/  # (Assuming this is your package name)
-├── MainActivity.java           # Or MainActivity.kt - Main activity displaying the planets
+com.surajvanshsv.planetsapp/  
+├── MainActivity.kt           
 ├── MyCustomAdapter.kt          # Custom adapter for the planet list
 ├── Planet.kt                   # Data model for planet objects
 ├── res/
@@ -37,7 +39,7 @@ com.surajvanshsv.planetsapp/  # (Assuming this is your package name)
 └── AndroidManifest.xml
 ```
 
-*(Please verify and adjust the package name and file names if they differ.)*
+
 
 ---
 
@@ -46,7 +48,7 @@ com.surajvanshsv.planetsapp/  # (Assuming this is your package name)
 1.  **Clone this repo:**
     
     ```bash
-    git clone https://github.com/your-github-username/PlanetsApp.git
+    git clone https://github.com/surajpsk12/PlanetApp-Kotlin.git
     cd PlanetsApp
     ```
 
@@ -74,11 +76,12 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 ## 📜 License
 
-MIT © 2024 [Your Name](https://github.com/your-github-username)
+MIT © 2024 [Your Name](https://github.com/surajpsk12)
 
 ---
 
 ## 🌐 Connect With Me
 
-*   🔗 [LinkedIn - Your Name](https://www.linkedin.com/in/your-linkedin-profile/)
-*   💻 [GitHub - your-github-username](https://github.com/your-github-username)
+
+* 🔗 [LinkedIn - Suraj Kumar](https://www.linkedin.com/in/surajvansh12/)
+* 💻 [GitHub - surajpsk12](https://github.com/surajpsk12)
