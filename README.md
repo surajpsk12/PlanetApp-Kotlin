@@ -48,7 +48,7 @@ com.surajvanshsv.planetsapp/
 1.  **Clone this repo:**
     
     ```bash
-    git clone https://github.com/surajpsk12/PlanetsApp-Kotlin.git
+    git clone https://github.com/surajpsk12/PlanetApp-Kotlin.git
     cd PlanetsApp
     ```
 
