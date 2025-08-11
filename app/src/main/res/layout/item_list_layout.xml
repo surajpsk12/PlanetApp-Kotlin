@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_background"
+    android:padding="8dp">
+
+    <!-- Background card effect -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        app:cardBackgroundColor="#2A2B3E"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/space_gradient"
+            android:padding="16dp">
+
+            <!-- Planet Image with Glow Effect -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="-8dp"
+                android:background="@drawable/planet_glow"
+                app:layout_constraintBottom_toBottomOf="@+id/imageViewplanet"
+                app:layout_constraintEnd_toEndOf="@+id/imageViewplanet"
+                app:layout_constraintStart_toStartOf="@+id/imageViewplanet"
+                app:layout_constraintTop_toTopOf="@+id/imageViewplanet" />
+
+            <ImageView
+                android:id="@+id/imageViewplanet"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circular_image_bg"
+                android:src="@drawable/ic_planet_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Planet Name with High Contrast -->
+            <TextView
+                android:id="@+id/planetName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/space_mono_bold"
+                android:text="Planet Name"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:letterSpacing="0.05"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageViewplanet"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Moon Count with High Contrast and Icon -->
+            <TextView
+                android:id="@+id/mooncount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="16dp"
+                android:drawableStart="@drawable/ic_moon"
+                android:drawablePadding="6dp"
+                android:fontFamily="@font/space_mono_regular"
+                android:text="0 moons"
+                android:textColor="#E0E0E0"
+                android:textSize="16sp"
+                android:alpha="1.0"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageViewplanet"
+                app:layout_constraintTop_toBottomOf="@+id/planetName" />
+
+            <!-- Decorative stars with better positioning -->
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="12dp"
+                android:src="@drawable/ic_star"
+                android:alpha="0.6"
+                app:tint="#FFD700"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/ic_star_small"
+                android:alpha="0.4"
+                app:tint="#B8B8FF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

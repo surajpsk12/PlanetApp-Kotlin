@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200"
+    android:tileMode="repeat">
+
+    <!-- Small stars scattered across -->
+    <group>
+        <path
+            android:pathData="M20,30 L22,28 L24,30 L22,32 Z"
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.8" />
+        <path
+            android:pathData="M60,50 L61,49 L62,50 L61,51 Z"
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.6" />
+        <path
+            android:pathData="M100,20 L102,18 L104,20 L102,22 Z"
+            android:fillColor="#B8B8FF"
+            android:fillAlpha="0.7" />
+        <path
+            android:pathData="M150,70 L151,69 L152,70 L151,71 Z"
+            android:fillColor="#4A90E2"
+            android:fillAlpha="0.5" />
+        <path
+            android:pathData="M30,120 L32,118 L34,120 L32,122 Z"
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.4" />
+        <path
+            android:pathData="M170,100 L171,99 L172,100 L171,101 Z"
+            android:fillColor="#B8B8FF"
+            android:fillAlpha="0.6" />
+        <path
+            android:pathData="M80,160 L82,158 L84,160 L82,162 Z"
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.7" />
+        <path
+            android:pathData="M140,180 L141,179 L142,180 L141,181 Z"
+            android:fillColor="#4A90E2"
+            android:fillAlpha="0.3" />
+    </group>
+</vector>

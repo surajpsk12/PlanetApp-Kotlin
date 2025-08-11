@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Comet head (circle as path) -->
+    <path
+        android:pathData="M8,5C10.21,5 12,6.79 12,9C12,11.21 10.21,13 8,13C5.79,13 4,11.21 4,9C4,6.79 5.79,5 8,5Z"
+        android:fillColor="#FFD700" />
+    <!-- Comet tail -->
+    <path
+        android:pathData="M8,8L16,16L14,18L6,10Z"
+        android:fillColor="#B8B8FF"
+        android:fillAlpha="0.4" />
+    <path
+        android:pathData="M10,6L18,14L16,16L8,8Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3" />
+    <path
+        android:pathData="M12,4L20,12L18,14L10,6Z"
+        android:fillColor="#4A90E2"
+        android:fillAlpha="0.2" />
+</vector>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Planet body -->
+    <path
+        android:pathData="M12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4Z"
+        android:fillColor="#4A90E2" />
+    <!-- Planet rings -->
+    <path
+        android:pathData="M12,6C15.31,6 18,8.69 18,12C18,15.31 15.31,18 12,18"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#B8B8FF"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.7" />
+    <path
+        android:pathData="M12,8C14.21,8 16,9.79 16,12C16,14.21 14.21,16 12,16"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.5" />
+    <!-- Surface details (circles as paths) -->
+    <path
+        android:pathData="M10,8.5C11.38,8.5 12.5,9.62 12.5,11C12.5,12.38 11.38,13.5 10,13.5C8.62,13.5 7.5,12.38 7.5,11C7.5,9.62 8.62,8.5 10,8.5Z"
+        android:fillColor="#2E5BDA"
+        android:fillAlpha="0.6" />
+    <path
+        android:pathData="M14,12C14.83,12 15.5,12.67 15.5,13.5C15.5,14.33 14.83,15 14,15C13.17,15 12.5,14.33 12.5,13.5C12.5,12.67 13.17,12 14,12Z"
+        android:fillColor="#1A237E"
+        android:fillAlpha="0.8" />
+</vector>
